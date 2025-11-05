@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="google-site-verification" content="X4vr-M4ZwrC6pMixJSisM1DrTzfptvKYU7H586MRnfE" />
+<head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias Gourmet - Tu restaurante favorito</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4ecdc4;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .menu {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .menu-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .precio {
+            color: #ff6b6b;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicias Gourmet</h1>
+        <p>Los mejores sabores para tu paladar</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="inicio">
+        <div>
+            <h2>Bienvenido a Delicias Gourmet</h2>
+            <p>Descubre nuestra deliciosa selección de platillos preparados con los mejores ingredientes</p>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" alt="Pizza Peperoni ">
+                <h3>Pizza Gourmet</h3>
+                <p>Deliciosa Pizza con Peperoni premium, salsa de tomates naturales, queso mozzarella y masa fresca </p>
+                <p class="precio">$19.99</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1604382355076-af4b0eb60143" alt="Pizza">
+                <h3>Pizza Margherita</h3>
+                <p>Pizza artesanal con salsa de tomate, mozzarella fresca y albahaca</p>
+                <p class="precio">$15.99</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Ensalada">
+                <h3>Ensalada César</h3>
+                <p>Lechuga romana, crutones, pollo a la parrilla y aderezo césar</p>
+                <p class="precio">$9.99</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8" alt="Pasta">
+                <h3>Pasta Alfredo</h3>
+                <p>Fetuccini en salsa cremosa con pollo y champiñones</p>
+                <p class="precio">$13.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" style="padding: 2rem; text-align: center;">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+        <p>📞 Teléfono: (+503) 7679 7617</p>
+        <p>📧 Email: deliciasgourmet@gmai.com</p>
+        <p>🏠 Dirección: Calle Principal #123, Ciudad Pacifica</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sección G-1-3 Hecho por Emerson Ivan Rodas Peréz y Even Esau Hernandez Nerios</p>
+    </footer>
+</body>
+</html>
